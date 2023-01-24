@@ -1,9 +1,43 @@
 /* Your code here */
 
+.wgs {
+  height: 241px;
+  position: relative;
+  width: 320px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.wgs__mole-head {
+  height: 178px;
+  position: absolute;
+  width: 188px;
+  left: 55px; 
+  transition: margin-top 0.25s;
+  
+}
+
+.wgs__dirt-pile {
+  height: 110px;
+  position: absolute;
+  width: 320px;
+  top: 131px;
+
+}
+
+.wgs__mole-head--hidden {
+  margin-top: 241px;
+}
+
+
+.pf {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout */
+}
 
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
-/* .sb {
+.sb {
   background-color: cornflowerblue;
   border-bottom: 1px solid #645DED;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -12,17 +46,17 @@
   font-size: 30px;
   margin-bottom: 50px;
   padding: 10px 20px;
-} */
+}
 
-/* .sb__mole-counter {
+.sb__mole-counter {
   flex: 1 0 0;
   text-align: right;
-} */
+}
 
-/* .sb__score-holder {
+.sb__score-holder {
   flex: 1 0 0;
-} */
+}
 
-/* .sb__game-over--hidden {
+.sb__game-over--hidden {
   display: none;
-} */
+}
